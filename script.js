@@ -13,8 +13,7 @@ fetch(`https://gorest.co.in/public-api/posts?page=${page}`)
 import { renderPosts } from "./modules/renderPosts.js"
 import { renderPost } from "./modules/renderPost.js"
 import { renderComments } from "./modules/renderComments.js"
-
-
+import { renderPagination } from "./modules/renderPagination.js"
 
 const postParams = new URLSearchParams(window.location.search)
 const postId = postParams.get('id')
