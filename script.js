@@ -11,6 +11,8 @@ fetch(`https://gorest.co.in/public-api/posts?page=${page}`)
 })
 
 import { renderPosts } from "./modules/renderPosts.js"
+import { renderPost } from "./modules/renderPost.js"
+import { renderComments } from "./modules/renderComments.js"
 
 
 
